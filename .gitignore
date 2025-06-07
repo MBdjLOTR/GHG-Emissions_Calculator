@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+**/__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment directories
+venv/
+env/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Database files (ignore SQLite DBs in the data folder)
+data/*.db
+data/*.sqlite
+
+# Secrets (e.g., configuration files with sensitive information)
+config.yaml
+.env
+secrets/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor directories and cache files (e.g., VSCode, PyCharm)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log files
+*.log
+logs/
+
+# Streamlit cache files
+.streamlit/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache files
+*.pytest_cache/
+.mypy_cache/
