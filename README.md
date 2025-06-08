@@ -66,3 +66,32 @@ Upstream/downstream activities
 📄 Report Generation - Export detailed emission reports
 
 🎨 Customizable Views - Flexible visualization options
+
+Running the Emission Calculator
+
+Prerequisites: Python 3.7 or higher, pip package manager
+
+Installation & Setup
+
+1) Clone the repository: git clone <repository-url>
+
+2) cd emission-calculator
+
+3) Install dependencies using Git Bash: pip install -r requirements.txt
+
+4) Run the application: streamlit run app.py
+
+5)Access the app: Open your browser and navigate to http://localhost:8501. The emission calculator interface will load automatically
+
+Deployment Options
+
+1) Local Development: streamlit run app.py --server.port 8501
+  
+2) Production Deployment: Streamlit Cloud: Connect your GitHub repository at share.streamlit.io
+
+3) Heroku: Add setup.sh and Procfile for Heroku deployment
+   
+4) Docker: Use the provided Dockerfile for containerized deployment
+
+Troubleshooting: Ensure all dependencies are installed: pip install streamlit pandas numpy. Check Python version compatibility. Verify port 8501 is available.
+
